@@ -1,0 +1,38 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Specific
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Vector Store / Databases / Logs (Useful for Mini-Rag)
+*.sqlite3
+*.db
+chroma_db/
+vector_store/
+data/
+logs/
+*.log
